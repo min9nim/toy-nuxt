@@ -21,4 +21,13 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+## TODO
+- [ ] Resolve warning when `yarn dev`
+```
+ WARN  Compiled with 1 warnings                                                                                                                                           friendly-errors 09:42:57
+
+
+ WARN  in ./pages/index.vue?vue&type=script&lang=ts&                                                                                                                      friendly-errors 09:42:57
+
+"export 'default' (imported as 'mod') was not found in '-!../node_modules/babel-loader/lib/index.js??ref--3-0!../node_modules/ts-loader/index.js??ref--3-1!../node_modules/vue-loader/lib/index.js??vue-loader-options!./index.vue?vue&type=script&lang=ts&'
+```
