@@ -1,6 +1,8 @@
 # toy-nuxt
 
 > nuxt app boilerplate
+> powered by typescript, element-ui, pug, stylus, eslint
+
 
 ## Build Setup
 
