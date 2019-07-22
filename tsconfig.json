@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2015",
-    "module": "commonjs",
+    "target": "esnext",
+    "module": "esnext",
     "moduleResolution": "node",
     "lib": [
       "esnext",
@@ -28,5 +28,9 @@
       "@types/node",
       "@nuxt/vue-app"
     ]
-  }
+  },
+  "include": [
+    "**/*.vue",
+    "types/**/*.d.ts"
+  ]
 }

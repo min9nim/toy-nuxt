@@ -15,13 +15,11 @@
 
 <script lang="ts">
 import Logo from '~/components/Logo.vue'
-
-import { Component, Vue } from 'vue-property-decorator'
+import {Component, Vue} from 'vue-property-decorator'
 
 @Component({
   components: {Logo},
 })
-
 export default class FeedPage extends Vue {}
 </script>
 
